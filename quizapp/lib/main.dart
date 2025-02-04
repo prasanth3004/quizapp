@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:quizapp/view/home_screen/home_screen.dart';
 import 'package:quizapp/view/splash_screen/splash_screen.dart';
 
 void main(List<String> args) {
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home:SplashScreen() ,
+      home:HomeScreen() ,
 
 
 
